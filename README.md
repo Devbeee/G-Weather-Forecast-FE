@@ -65,6 +65,7 @@ Using npm:
 
 ```bash
 npm start
+```
 
 ## Deployment
 
