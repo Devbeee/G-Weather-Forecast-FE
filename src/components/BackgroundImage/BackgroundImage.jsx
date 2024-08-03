@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import className from "classnames/bind";
 import style from "./BackgroundImage.module.scss";
-import Clear from "../../assets/images/Clear.jpg";
-import Fog from "../../assets/images/fog.png";
-import Cloudy from "../../assets/images/Cloudy.jpg";
-import Rainy from "../../assets/images/Rainy.jpg";
-import Snow from "../../assets/images/snow.jpg";
-import Stormy from "../../assets/images/Stormy.jpg";
+import Clear from "~/assets/images/Clear.jpg";
+import Fog from "~/assets/images/fog.png";
+import Cloudy from "~/assets/images/Cloudy.jpg";
+import Rainy from "~/assets/images/Rainy.jpg";
+import Snow from "~/assets/images/snow.jpg";
+import Stormy from "~/assets/images/Stormy.jpg";
 const cx = className.bind(style);
 const BackgroundImage = ({ condition }) => {
   const [image, setImage] = useState(Clear);

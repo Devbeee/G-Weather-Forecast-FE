@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import { path } from "./utils/constant";
+import { path } from "~/utils/constant";
 import {
   Home,
   WeatherDashboard,
   WeatherSubcribe,
   WeatherHistorySearch,
-} from "./pages";
+} from "~/pages";
 function App() {
   return (
     <div className="App">

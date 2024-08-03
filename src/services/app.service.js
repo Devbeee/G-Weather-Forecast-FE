@@ -1,5 +1,5 @@
 import axios from "axios";
-import { baseUrl, apiKey } from "../utils/constant";
+import { baseUrl, apiKey } from "~/utils/constant";
 export const apiGetWeatherByCity = async (searchValue) => {
   try {
     const response = await axios.get(`${baseUrl}/current.json`, {

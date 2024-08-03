@@ -3,16 +3,16 @@ import { Link, useNavigate } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import className from "classnames/bind";
 import style from "./Home.module.scss";
-import search from "../../assets/icons/search.svg";
+import search from "~/assets/icons/search.svg";
 import {
   apiGetWeatherByCity,
   apiGetWeatherForecastByCity,
-} from "../../services";
+} from "~/services";
 import {
   BackgroundImage,
   WeatherCard,
   WeatherMiniCard,
-} from "../../components";
+} from "~/components";
 const cx = className.bind(style);
 const Home = () => {
   const navigate = useNavigate();

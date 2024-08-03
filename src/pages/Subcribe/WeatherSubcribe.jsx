@@ -3,12 +3,12 @@ import { useNavigate } from "react-router-dom";
 import className from "classnames/bind";
 import style from "./WeatherSubcribe.module.scss";
 import Swal from "sweetalert2";
-import { emailRegex } from "../../utils/constant";
+import { emailRegex } from "~/utils/constant";
 import {
   apiContactRegister,
   apiContactUnsubcribe,
-} from "../../services/contact.service";
-import { CustomBtn } from "../../components";
+} from "~/services/contact.service";
+import { CustomBtn } from "~/components";
 const cx = className.bind(style);
 
 const WeatherSubcribe = () => {

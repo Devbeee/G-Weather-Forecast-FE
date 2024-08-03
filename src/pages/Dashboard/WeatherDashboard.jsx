@@ -7,13 +7,13 @@ import {
   CustomInput,
   WeatherInfo,
   WeatherItem,
-} from "../../components";
+} from "~/components";
 import {
   apiGetWeatherByCity,
   apiGetWeatherForecastByCity,
-} from "../../services";
-import { limitDaysForecast } from "../../utils/constant";
-import { capitalizeFirstLetter } from "../../utils/common";
+} from "~/services";
+import { limitDaysForecast } from "~/utils/constant";
+import { capitalizeFirstLetter } from "~/utils/common";
 const cx = className.bind(style);
 
 const WeatherDashboard = () => {

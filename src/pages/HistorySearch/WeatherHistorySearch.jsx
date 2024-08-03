@@ -7,12 +7,12 @@ import {
   CustomSelect,
   WeatherInfo,
   WeatherItem,
-} from "../../components";
+} from "~/components";
 import {
   apiGetWeatherByCity,
   apiGetWeatherForecastByCity,
-} from "../../services";
-import { limitDaysForecast } from "../../utils/constant";
+} from "~/services";
+import { limitDaysForecast } from "~/utils/constant";
 const cx = className.bind(style);
 
 const WeatherHistorySearch = () => {
