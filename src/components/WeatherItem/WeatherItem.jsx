@@ -1,12 +1,13 @@
 import React, { memo } from "react";
 import className from "classnames/bind";
 import style from "./WeatherItem.module.scss";
-import { limitDaysForecast } from "../../utils/constant";
 const cx = className.bind(style);
 const WeatherItem = ({ weatherForecastData }) => {
   return (
     <div className={cx("weather-forecast-days")}>
-      <h2 className={cx("weather-forecast-title")}>{limitDaysForecast - 1}-Day Forecast</h2>
+      <h2 className={cx("weather-forecast-title")}>
+        {weatherForecastData?.length}-Day Forecast
+      </h2>
       {weatherForecastData?.length > 0 && (
         <ul className={cx("weather-list")}>
           {weatherForecastData?.map((weather, index) => (
