@@ -55,7 +55,7 @@ REACT_APP_SERVER_URL = your_server_url/api/v1
 REACT_APP_API_KEY = your_weatherapi_key
 ```
 - Replace your_server_url with your actual server URL.
-- Replace your_weatherapi_key with the API key from WeatherAPI.
+- Replace your_weatherapi_key with the API key from [WeatherAPI](https://www.weatherapi.com).
 
 ## Running the Project
 
